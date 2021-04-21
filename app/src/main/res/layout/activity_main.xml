@@ -30,6 +30,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
+        android:onClick="enviaMensagem"
         android:text="@string/enviar" />
 
 </LinearLayout>
