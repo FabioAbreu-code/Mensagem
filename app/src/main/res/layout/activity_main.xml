@@ -2,14 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_weight="1"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/editTextMensagem"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -19,7 +19,7 @@
         android:layout_weight="1"
         android:autofillHints=""
         android:ems="10"
-        android:hint="Mensagem"
+        android:hint="@string/mensagem"
         android:inputType="textPersonName" />
 
     <Button
