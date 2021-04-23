@@ -24,4 +24,12 @@
         android:layout_margin="8dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         tools:text="Olá mundo" />
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        tools:text="13/04/2021 10:44" />
 </LinearLayout>
