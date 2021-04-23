@@ -18,8 +18,12 @@ class MainActivity : AppCompatActivity() {
 
     fun enviaMensagem(view: View) {
         val editTextMensagem = findViewById<EditText>(R.id.editTextMensagem)
-
         val mensagem = editTextMensagem.text.toString()
+
+        if(mensagem.isBlank()){
+            editTextMensagem.error = "Itroduza uma mensagem"
+            return
+        }
 
         val  intent = Intent(this, MostraMensagemActivity::class.java)
         intent.putExtra(INFO_EXTRA_MENSAGEM, mensagem)
