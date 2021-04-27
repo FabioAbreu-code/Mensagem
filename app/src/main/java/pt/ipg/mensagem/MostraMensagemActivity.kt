@@ -12,5 +12,10 @@ class MostraMensagemActivity : AppCompatActivity() {
         val mensagem = intent.getStringExtra(MainActivity.INFO_EXTRA_MENSAGEM)
         val textViewMensagem = findViewById<TextView>(R.id.textViewMensagem)
         textViewMensagem.text =mensagem
+
+        val dataAtual = intent.getStringExtra(MainActivity.INFO_DATA_HORA)
+        val textViewData = findViewById<TextView>(R.id.textViewData)
+        textViewData.text = dataAtual
+
     }
 }
