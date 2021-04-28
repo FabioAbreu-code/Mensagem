@@ -20,7 +20,7 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/mensagem"
-        android:inputType="textPersonName" />
+        android:inputType="textUri|textShortMessage|textAutoCorrect|textMultiLine" />
 
     <Button
         android:id="@+id/buttonEnviar"
